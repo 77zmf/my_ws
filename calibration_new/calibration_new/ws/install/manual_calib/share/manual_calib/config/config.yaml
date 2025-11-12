@@ -1,0 +1,23 @@
+# CalibBoard配置文件
+calib_board_node:
+  ros__parameters:
+    # 点云文件路径
+    data_path: "/home/ipc/pix/calibration_new/calib_data/data"
+
+    # 外参文件路径
+    parameters_path: "/home/ipc/pix/calibration_new/calib_data/config"
+    
+    # 点云话题名称
+    pointcloud_topic: "pointcloud_map"
+    pointcloud_target_topic: "pointcloud_target"
+    
+    # 坐标系名称
+    frame_id: "base_link"
+
+    # 去除一定范围外的点云
+    outlier_range: 100.0
+
+    # 待标定相机ID列表
+    camera_list: [1, 2, 3, 4, 5, 6]
+    camera_name_list: ["camera_front", "camera_rear", "camera_front_left", "camera_front_right", "camera_rear_left", "camera_rear_right"]
+    calib_camera_id: 5

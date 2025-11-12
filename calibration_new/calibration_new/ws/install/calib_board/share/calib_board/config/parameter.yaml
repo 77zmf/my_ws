@@ -1,0 +1,18 @@
+camera_intrinsics: [[487.35858154, 0.0, 517.17444645], [0.0, 485.69714355, 288.49472539], [0.0, 0.0, 1.0]]
+lidar_to_base_link_extrinsics:
+  x: 1.6
+  y: 0.0
+  z: 1.35
+  roll: 0.0
+  pitch: 0.0
+  yaw: 0.0
+camera_to_base_link_extrinsics:
+  x: -0.74620676590632318
+  y: 1.2460032452309786
+  z: 0.070030834035492262
+  roll: -1.9823886517764067
+  pitch: -0.78037288218067313
+  yaw: -2.7642226419573754
+csv_file_path: /home/pix/code/calibration_ws/src/calibBoard/cache/
+pcd_file_path: /home/pix/code/calibration_ws/src/calibBoard/cache/first_frame_xyzi.pcd
+image_file_path: /home/pix/code/calibration_ws/src/calibBoard/cache/rear_right_undistorted.png

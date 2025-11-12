@@ -1,0 +1,2 @@
+source;share/lidar_calibration_verif/environment/ament_prefix_path.sh
+source;share/lidar_calibration_verif/environment/path.sh

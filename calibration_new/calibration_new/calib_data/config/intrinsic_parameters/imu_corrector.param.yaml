@@ -1,0 +1,9 @@
+/**:
+  ros__parameters:
+    angular_velocity_stddev_xx: 1.6901233770452774e-03
+    angular_velocity_stddev_yy: 1.3392742394140514e-03
+    angular_velocity_stddev_zz: 1.4883240690177805e-03
+    angular_velocity_offset_x: -2.967e-03 # x-axis: gyr_w
+    angular_velocity_offset_y: 5.2359e-03 # y-axis: gyr_w
+    angular_velocity_offset_z: 5.0614e-03 # z-axis: gyr_w
+ 
